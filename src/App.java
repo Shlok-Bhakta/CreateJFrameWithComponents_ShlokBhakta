@@ -1,8 +1,8 @@
 
 public class App {
     public static void main(String[] args) throws Exception {
-        JFrameWithComponents aFrame = new JFrameWithComponents();
-        final int WIDTH = 350;
+        JAction aFrame = new JAction();
+        final int WIDTH = 250;
         final int HEIGHT = 100;
         aFrame.setSize(WIDTH, HEIGHT);
         aFrame.setVisible(true);
