@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+
 public class JFrameWithComponents extends JFrame{
     JLabel label = new JLabel("Enter your name");
     JTextField field = new JTextField(12);
@@ -13,4 +14,5 @@ public class JFrameWithComponents extends JFrame{
         add(button);
 
     }
+    
 }
