@@ -19,6 +19,7 @@ public class JAction2 extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent e) {
         label.setText("Thank you");
         button.setText("Done");
+        //here!
     }
     
 }
