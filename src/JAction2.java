@@ -17,9 +17,13 @@ public class JAction2 extends JFrame implements ActionListener{
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        label.setText("Thank you");
-        button.setText("Done");
-        //here!
+
+        Object source = e.getSource();
+        if(source == button){
+            label.setText("You clicked the button");
+        }else{
+            label.setText("You pressed Enter");
+        }
     }
     
 }
